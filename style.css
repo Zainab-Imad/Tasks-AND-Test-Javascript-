@@ -1,0 +1,128 @@
+body{
+	font-family: 'Spartan', sans-serif;
+}
+table{
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	float: left;
+	margin-right: 100px;
+}
+.uni{
+	visibility: hidden;
+}
+#draws{
+	float: left;
+	display: block;
+	margin-right: 100px;
+}
+.draw1{
+	position: absolute;
+	width: 100px;
+	transform: rotate(15deg);
+	border:1px solid red;
+	margin-left: 71px;
+	margin-top: 30px;
+	background-color: red;
+
+}
+.draw2{
+	position: absolute;
+	width: 100px;
+	transform: rotate(15deg);
+	border:1px solid red;
+	margin-left: 71px;
+	margin-top: 30px;
+	background-color: red;
+
+}
+.draw3{
+	position: absolute;
+	width: 120px;
+	transform: rotate(-36deg) translate(8px, -10px);
+	border:1px solid red;
+	margin-left: 59px;
+	background-color: red
+}
+.box1,.box2,.box3 {
+	width: 60px;
+	border: 1px solid black;
+	padding: 5px;
+}
+.container{
+	display:flex;
+}
+.box4{
+	width: 100px;
+	margin-left: 100px;
+	border:1px solid black;
+	padding: 5px;
+}
+.colorful{
+	display: flex;
+}
+.pink,.yellow,.blue,.white{
+	text-align: center;
+	margin: 10px 20px;
+	width: 80px;
+	height: 80px;
+	border:1px solid black;
+}
+.pink{
+	background-color: #FE3A51;
+}
+.yellow{
+	background-color:#B3FC28;
+}
+.blue{
+	background-color: #7FCEFB;
+}
+.white{
+	background-color: #fff;
+}
+fieldset{
+	line-height: 100px;
+	display: inline-block;
+	padding: 20px;
+	margin: 30px;
+	float: left;
+}
+fieldset button{
+	margin: 0px 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+.result{
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+}
+.scrollToTop{    
+	width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    top: 510px;
+    right: 50px;
+    display: none;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+textarea{
+	width: 300px;
+	height: 200px;
+}
+#thankYou,#send{
+	margin-left: 20px;
+}
+
+.accordion{
+	display: block;
+	margin-top: 800px;
+}
